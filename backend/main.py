@@ -28,7 +28,7 @@ app.add_middleware(
 )
 
 # Serve static files (HTML, CSS, JS)
-app.mount("/static", StaticFiles(directory="/Users/nitish/internship_task/document-intelligence-system/frontend/"), name="static")
+app.mount("/static", StaticFiles(directory="./frontend"), name="static")
 
 # Initialize document processor
 processor = DocumentProcessor()
