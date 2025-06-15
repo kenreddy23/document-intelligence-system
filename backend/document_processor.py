@@ -16,9 +16,9 @@ load_dotenv()
 class DocumentProcessor:
     def __init__(self):
         # Set up API keys
-        self.openai_key = os.getenv("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")
-        self.ocr_key = os.getenv("K82562443888957")
-        
+        self.openai_key = os.getenv("sk-YOUR-OPENAI-API-KEY")
+        self.ocr_key = os.getenv("YOUR-OCR-SPACE-API-KEY")
+            
         # Configure OpenAI
         openai.api_key = self.openai_key
     
