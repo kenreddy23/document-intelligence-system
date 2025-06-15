@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Intelligence System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI Document Intelligence</h1>
+            <p>Upload any document and let AI extract key information automatically!</p>
+        </header>
+
+        <div class="upload-section">
+            <div class="upload-area" id="upload-area">
+                <div class="upload-content">
+                    <div class="upload-icon">📄</div>
+                    <h3>Drop your document here</h3>
+                    <p>or click to browse</p>
+                    <p class="file-types">Supports: PDF, JPG, PNG</p>
+                </div>
+                <input type="file" id="file-input" accept=".pdf,.jpg,.jpeg,.png" hidden>
+            </div>
+            
+            <button id="process-btn" class="process-btn" disabled>
+                🚀 Process Document
+            </button>
+        </div>
+
+        <div class="loading" id="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>AI is analyzing your document...</p>
+        </div>
+
+        <div class="results" id="results" style="display: none;">
+            <h2>📊 Extracted Information</h2>
+            <div id="results-content"></div>
+            <button id="download-btn" class="download-btn">
+                ⬇️ Download Results (CSV)
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
