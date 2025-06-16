@@ -15,9 +15,13 @@ Imagine uploading a document (PDF, JPG, or PNG) and having an AI magically extra
 - 🌐 **Responsive UI**: Clean and modern frontend built with HTML, CSS, and JavaScript.
 
 ### Demo Screenshots
-| Upload Interface | Results Display |
-|------------------|-----------------|
-| ![Upload Interface](screenshots/upload-screen.png) | ![Results Display](screenshots/results-screen.png) |
+| Upload Interface | Processing Display |
+|------------------|--------------------|                                                                                                                      
+
+<img width="1920" alt="Screenshot 2025-06-15 at 5 11 16 PM" src="https://github.com/user-attachments/assets/80a3b632-336e-40d7-a18e-0f293671aa28" />
+
+<img width="1920" alt="Screenshot 2025-06-15 at 5 11 22 PM" src="https://github.com/user-attachments/assets/19648c15-388f-46e6-b0eb-013cf2a3be25" />                          
+
 
 > **Note**: Replace `screenshots/upload-screen.png` and `screenshots/results-screen.png` with actual screenshot paths in your GitHub repository.
 
@@ -30,7 +34,7 @@ Imagine uploading a document (PDF, JPG, or PNG) and having an AI magically extra
   - [OCR.Space](https://ocr.space/ocrapi) for text extraction from images
 - **Libraries**:
   - Flask, FastAPI, Uvicorn, Requests, Pandas, Python-Dotenv, Pillow
-- **Environment**: Python 3.9+, VS Code
+- **Environment**: Python 3.9+, VS Code/PyCharm
 
 ## 🚀 Getting Started
 
@@ -47,8 +51,8 @@ Follow these steps to set up and run the project locally.
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/document-intelligence.git
-   cd document-intelligence
+   git clone https://github.com/kenreddy23/document-intelligence-system.git
+   cd document-intelligence-system
    ```
 
 2. **Set Up a Virtual Environment** (optional but recommended):
@@ -59,7 +63,7 @@ Follow these steps to set up and run the project locally.
 
 3. **Install Required Libraries**:
    ```bash
-   pip install flask fastapi uvicorn python-multipart requests pandas python-dotenv pillow
+   pip install requirements.txt
    ```
 
 4. **Configure Environment Variables**:
@@ -83,7 +87,6 @@ Follow these steps to set up and run the project locally.
    │   └── script.js
    ├── uploads/
    ├── results/
-   ├── screenshots/
    ├── .env
    └── README.md
    ```
@@ -166,7 +169,7 @@ Please ensure your code follows the project's style guidelines and includes test
 
 ## 📜 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache 2.0. See the [LICENSE](LICENSE) file for details.
 
 ## 🙌 Acknowledgments
 
