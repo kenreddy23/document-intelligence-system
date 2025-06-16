@@ -22,8 +22,6 @@ Imagine uploading a document (PDF, JPG, or PNG) and having an AI magically extra
 
 <img width="1920" alt="Screenshot 2025-06-15 at 5 11 16 PM" src="https://github.com/user-attachments/assets/80a3b632-336e-40d7-a18e-0f293671aa28" />
 
-> **Note**: Replace `screenshots/upload-screen.png` and `screenshots/results-screen.png` with actual screenshot paths in your GitHub repository.
-
 ## 🛠️ Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript (Vanilla JS)
