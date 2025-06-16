@@ -18,10 +18,9 @@ Imagine uploading a document (PDF, JPG, or PNG) and having an AI magically extra
 | Upload Interface | Processing Display |
 |------------------|--------------------|                                                                                                                      
 
-<img width="1920" alt="Screenshot 2025-06-15 at 5 11 16 PM" src="https://github.com/user-attachments/assets/80a3b632-336e-40d7-a18e-0f293671aa28" />
-
 <img width="1920" alt="Screenshot 2025-06-15 at 5 11 22 PM" src="https://github.com/user-attachments/assets/19648c15-388f-46e6-b0eb-013cf2a3be25" />                          
 
+<img width="1920" alt="Screenshot 2025-06-15 at 5 11 16 PM" src="https://github.com/user-attachments/assets/80a3b632-336e-40d7-a18e-0f293671aa28" />
 
 > **Note**: Replace `screenshots/upload-screen.png` and `screenshots/results-screen.png` with actual screenshot paths in your GitHub repository.
 
